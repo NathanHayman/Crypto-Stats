@@ -14,4 +14,4 @@ Coin Market Cap
 ```
 This project was created using React and Axios.
 The User Interface includes a serch bar in which you can search for a coin of your preference.
-![Crypto Stats](main/Crypto Stats.PNG)
+To see what the User Interface looks like navigate to the Crypto Stats.PNG to see a preview of the application!
