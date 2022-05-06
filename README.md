@@ -10,7 +10,6 @@ Coin Price
 Coin Volume
 Coin Percentage (past 24hrs)
 Coin Market Cap
-
 ```
 This project was created using React and Axios.
 The User Interface includes a serch bar in which you can search for a coin of your preference.
