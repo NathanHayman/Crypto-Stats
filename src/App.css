@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ecf4fe;
+  color: rgb(49, 49, 49);
+}
+
+.coin-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 64px;
+  color: rgb(49, 49, 49);
+
+  }
+
+.coin-search {
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.coin-text {
+  margin-bottom: 32px;
+  text-align: center;
+  letter-spacing: 4px;
+  color: rgb(49, 49, 49);
+  text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+}
+
+.coin-input {
+  font-size: 16px;
+  padding-left: 16px;
+  width: 300px;
+  height: 50px;
+  border-radius: 30px;
+  border: black;
+  outline: none;
+  background-color: #ecf4fe;
+  color: #2b2b2e;
+  box-shadow: inset -2px -2px 8px rgba(255, 255, 255, 1),
+  inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+  inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+  inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+.coin-input:hover {
+  box-shadow: -2px -2px 8px rgba(255, 255, 255, 1),
+  -2px -2px 12px rgba(255, 255, 255, 0.5),
+  inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+  2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.coin-input::placeholder {
+  color: #75757a;
+  letter-spacing: 1px;
+  font-size: 16px;
+  border: none;
+}
+
+.coin-input:focus::placeholder {
+  color: transparent;
+}
