@@ -11,6 +11,6 @@ Coin Volume
 Coin Percentage (past 24hrs)
 Coin Market Cap
 ```
-This project was created using React and Axios.
+This javascript project was created using React and Axios.
 The User Interface includes a serch bar in which you can search for a coin of your preference.
-To see what the User Interface looks like navigate to the Crypto Stats.PNG to see a preview of the application!
+To see a little more of what I chose to do for the User Interface [here is a link](https://youtu.be/QWstT6ieeEo) to a demo of me running the application on my localhost!
